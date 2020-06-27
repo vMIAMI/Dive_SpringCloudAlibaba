@@ -7,7 +7,7 @@ spring:
   cloud:
     #注册到zookeeper地址
     zookeeper:
-      connect-string: 8.210.102.250:2181
+      connect-string: 8.210.137.191:2181
 
 
 
