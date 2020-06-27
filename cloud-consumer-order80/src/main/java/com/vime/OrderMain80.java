@@ -8,8 +8,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-//Ribbon设置访问这个service的lb策略
-@RibbonClient(name = "CLOUD-PAYMENT-SERVICE", configuration = MyRuler.class)
+//@RibbonClient(name = "CLOUD-PAYMENT-SERVICE", configuration = MyRuler.class)//Ribbon设置访问该service的lb策略
 public class OrderMain80 {
     public static void main(String[] args) {
         SpringApplication.run(OrderMain80.class, args);
