@@ -8,3 +8,4 @@
            一个小问题：将consul部署在云服务器，本地服务注册时web健康检查失败(因为使用了内网ip); zookeeper为何没有这个问题，它是如何(没有)健康检查的
 2020/06/27 p42 TODO Ribbon
               LB算法，自写轮训算法实现时使用到了CAS2
+2020/06/28 p46 TODO OpenFeign
