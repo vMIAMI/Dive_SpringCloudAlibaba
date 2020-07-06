@@ -11,3 +11,5 @@
 2020/06/28 p46 TODO OpenFeign
 2020/07/04 p64 TODO Hystrix思想：限流fallback & 熔断恢复
 2020/07/05 p73 TODO springcloud gateway
+2020/07/06 p76 springcloud config，集中管理yaml配置文件。
+                   repo改完后config-server能获取最新数据，config-client需要手动发送post请求通知更新，感觉好傻还是不写例子了...
