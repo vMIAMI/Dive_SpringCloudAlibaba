@@ -14,4 +14,6 @@
 2020/07/06 p76 springcloud config，集中管理yaml配置文件。
                    repo改完后config-server能获取最新数据，config-client需要手动发送post请求通知更新，感觉好傻还是不写例子了...
 2020/07/07 p82 TODO bus , rabbitmq
-2020/07/08 p82 TODO cloud stream，整合各种消息中间件（rabbitmq&kafka）
+2020/07/08 p91 TODO cloud stream，整合各种消息中间件（rabbitmq&kafka）
+               不关心背后使用的中间件是rabbitmq还是kafka，在cloud使用stream接/发消息。
+2020/07/08 p94 sleuth+zipkin 监控微服务调用层级链路、耗时，并dashboard界面展示
