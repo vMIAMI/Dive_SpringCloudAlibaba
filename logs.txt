@@ -17,5 +17,6 @@
 2020/07/08 p91 TODO cloud stream，整合各种消息中间件（rabbitmq&kafka）
                不关心背后使用的中间件是rabbitmq还是kafka，在cloud使用stream接/发消息。
 2020/07/08 p94 sleuth+zipkin 监控微服务调用层级链路、耗时，并dashboard界面展示
-2020/07/08 p110 TODO nacos
+2020/07/08 p110 TODO alibaba nacos
                 服务注册、服务发现、配置中心，负载均衡，AP/CP切换，集群支持nginx+nacos+mysql
+2020/07/11 p137 TODO alibaba sentinel 整合nacos、懒加载、流量监控、流量链路、QPS与线程控制、关联控制(如支付压力过大，限流下订单)、排队等待、降级

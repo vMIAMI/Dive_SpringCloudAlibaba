@@ -30,6 +30,8 @@
         <module>cloud-stream-rabbitmq-consumer8803</module>
         <module>cloudali-provider-payment9001</module>
         <module>cloudali-consumer-order83</module>
+        <module>cloudali-consumer-order84</module>
+        <module>cloudali-sentinel-service-8401</module>
     </modules>
     <packaging>pom</packaging>
 
