@@ -20,3 +20,4 @@
 2020/07/08 p110 TODO alibaba nacos
                 服务注册、服务发现、配置中心，负载均衡，AP/CP切换，集群支持nginx+nacos+mysql
 2020/07/11 p137 TODO alibaba sentinel 整合nacos、懒加载、流量监控、流量链路、QPS与线程控制、关联控制(如支付压力过大，限流下订单)、排队等待、降级
+2020/07/11 p148 TODO alibaba seata 分布式事务
