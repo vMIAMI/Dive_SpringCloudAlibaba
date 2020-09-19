@@ -27,6 +27,8 @@ public class PaymentController {
 
     @RequestMapping(value = "/payment/tt")
     public String tt() {
+        Payment payment = new Payment(0L,"test");
+        paymentService.create(payment);
         return "tt";
     }
 
